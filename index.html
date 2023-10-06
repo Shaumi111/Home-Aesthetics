@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Aesthetics</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./index.j"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -37,15 +38,120 @@
                 </figure>
             </div>
         </header>
-        <section id="AboutUs">
-            <div class="about__container">
-                <div class="about__text">    
-                    <h1 class="about__title">About Us</h1>
-                    <p class="about__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi in, consequuntur voluptatem quis aliquam fugiat ea corrupti, ratione quos deleniti nihil? Possimus unde qui ipsam dolorum eligendi, fugiat nostrum minima!</p>
-                    <button>READ MORE</button>
+        <section>
+            <div class="service__container">
+                <h1 class="service__title">Our Service</h1>
+                <div class="service__list">
+                    <div class="service__list--link">
+                        <div class="img__container">
+                            <img class="service__img" src="./assets/IMG_4139.JPG" alt="">
+                        </div>
+                        <h3 class="service__img--title">Beratungsgespräch</h3>
+                    </div>
+                    <div class="service__list--link">
+                        <div class="img__container">
+                            <img class="service__img" src="./assets/IMG_4133.JPG" alt="">
+                        </div>
+                        <h3 class="service__img--title">Farb- und Materialkonzept</h3>
+                    </div>
+                    <div class="service__list--link">
+                        <div class="img__container">
+                            <img class="service__img" src="./assets/IMG_4135.JPG" alt="">
+                        </div>
+                        <h3 class="service__img--title">Raumplanung und 3D Visualisierung</h3>
+                    </div>
+                    <div class="service__list--link">
+                        <div class="img__container">
+                            <img class="service__img" src="./assets/IMG_4137.JPG" alt="">
+                        </div>
+                        <h3 class="service__img--title">Interior Shopping Liste</h3>
+                    </div>
                 </div>
             </div>
         </section>
-        </section>   
-</body>
-</html>
+        <section id="AboutUs">
+            <div class="about__container">
+                    <figure class="about__img--container">
+                        <img class="about__img" src="./assets/IMG_4099.JPG" alt="">
+                    </figure>
+                    <div class="about__text">    
+                        <h1 class="about__title">About Us</h1>
+                        <p class="about__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi in, consequuntur voluptatem quis aliquam fugiat ea corrupti, ratione quos deleniti nihil? Possimus unde qui ipsam dolorum eligendi, fugiat nostrum minima!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas deserunt illum exercitationem voluptas non veniam error expedita reiciendis beatae! Eum facere expedita repellendus, perferendis dolorum velit quas non corporis animi?
+                        </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="projects__container">
+                <h1 class="projects__title">Our Projects</h1>
+                <div class="projects__list">
+                    <div class="projects__list--img">
+                        <div class="projects__img--container">
+                            <img class="projects__img" src="./assets/IMG_4097.JPG" alt="">
+                            <h3 class="projects__text">Küche</h3>
+                        </div>
+                    </div>
+                    <div class="projects__list--img">
+                        <div class="projects__img--container">
+                            <img class="projects__img" src="./assets/IMG_4102.JPG" alt="">
+                            <h3 class="projects__text">Schlafzimmer</h3>
+                        </div>
+                    </div>
+                    <div class="projects__list--img">
+                        <div class="projects__img--container">
+                            <img class="projects__img" src="./assets/IMG_4126.JPG" alt="">
+                            <h3 class="projects__text">Wohnzimmer</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="contact__container">
+            <div class="contact-box__container">
+                <div class="contact-box">
+                    <h1 class="contact__title">Jetzt Termin Vereinbaren!</h1>
+                    <form action="#" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" name="email" required>                        
+                        <label for="phone">Mobil-/Telefonnummer (OPTIONAL)</label>
+                        <input type="tel" id="phone" name="phone">
+                        <label for="message">Nachricht</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                        <input type="submit" value="Absenden">
+                    </form>  
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="FAQ">
+            <div class="faq__section">
+            <h1>FAQ</h1>
+            <div class="faq__container">
+                <div class="faq__active">
+                    <h3 class="faq__title">Warum Home Aestethics?</h3>
+                    <p class="faq__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione quae possimus repellat repellendus consectetur voluptatem debitis temporibus et aliquid quod illo, iusto quas qui? Fugiat animi omnis facilis quia quisquam.</p>
+                    <button class="faq__toggle">
+                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="faq">
+                    <h3 class="faq__title">
+                        Qualität
+                    </h3>
+                    <p class="faq__para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iste, exercitationem praesentium aut tempora eaque mollitia doloribus perspiciatis labore ad voluptate eius quibusdam harum maxime blanditiis, quasi consequuntur ex distinctio.
+                    </p>
+                    <button class="faq__toggle">
+                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </section>
+    </body>
+    </html>
